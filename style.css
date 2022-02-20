@@ -1,0 +1,110 @@
+dt,
+label,
+legend,
+blockquote {
+  color: linen;
+}
+
+#search {
+  width: 300px;
+  height: 40px;
+  transition: width 1s, height 1s;
+  position: absolute;
+  left: 38%;
+  bottom: 50%;
+}
+
+#search:focus {
+  background-color: lightblue;
+  border: 4px solid rgba(0, 0, 0, 0.5);
+  width: 40%;
+  height: 20%;
+}
+
+.laptop {
+  text-align: center;
+  background-color: indigo;
+}
+
+.main {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.product {
+  width: 500px;
+  height: 350px;
+  alt: "image unable to load";
+}
+
+address {
+  background-color: maroon;
+}
+
+a {
+  font-size: 80%;
+  background-color: orangered;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  background-color: darksalmon;
+}
+a:active {
+  background-color: black;
+}
+
+body {
+  background-image: url(/HTML/images/lightbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  position: sticky;
+  top: 0px;
+}
+
+h5 {
+  width: 150px;
+  background-color: rgb(95, 160, 135);
+  border: 4px solid rgb(95, 125, 160);
+  box-shadow: 0 0 5px yellow, 0 0 10px black;
+}
+
+hr {
+  border: 2px solid silver;
+}
+
+marquee {
+  background-color: crimson;
+}
+
+p {
+  font-size: 120%;
+  color: white;
+}
+
+p:target {
+  color: whitesmoke;
+  background-color: darkblue;
+  font-size: xx-large;
+}
+
+ul {
+  color: aliceblue;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  word-spacing: 5px;
+  background-color: black;
+  /* padding-left: 20px; */
+  border-style: ridge;
+  border-color: darkorchid;
+  padding: 25px;
+}
